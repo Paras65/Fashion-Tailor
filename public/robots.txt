@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://paras65.github.io/Fashion-Tailor/sitemap.xml
