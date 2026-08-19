@@ -24,7 +24,9 @@ For social profiles, copy `.env.social.example` values into `.env` and replace t
 
 ## GitHub Pages
 
-The workflow at `.github/workflows/deploy-pages.yml` deploys the app automatically whenever `main` receives a push. In the GitHub repository, open **Settings → Pages**, choose **GitHub Actions** as the source, then push to `main`. The Vite base path is derived from `GITHUB_REPOSITORY`, and the workflow creates a `404.html` SPA fallback for direct page navigation.
+The workflow at `.github/workflows/deploy-pages.yml` deploys the app automatically whenever `main` receives a push. In the GitHub repository, open **Settings → Pages**, set **Source** to **GitHub Actions** (not “Deploy from a branch”), then push to `main`. The Vite base path is derived from `GITHUB_REPOSITORY`, and the workflow creates a `404.html` SPA fallback for direct page navigation.
+
+The deployed app URL is `https://paras65.github.io/Fashion-Tailor/`. Do not open `/src/main.jsx` directly; that path only exists during local Vite development and is not part of the production artifact.
 
 ## Architecture
 
