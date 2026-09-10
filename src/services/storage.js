@@ -1,6 +1,6 @@
 import localforage from 'localforage'
 
-const ordersStore = localforage.createInstance({ name: 'siyai-tailor', storeName: 'orders' })
+const ordersStore = localforage.createInstance({ name: 'Silai-tailor', storeName: 'orders' })
 
 export async function getOrders() {
   const orders = await ordersStore.getItem('orders')

@@ -1,6 +1,6 @@
-# Siyai Tailor Manager
+# Silai Tailor Manager
 
-An offline-first React + Vite PWA for Siyai, a fashion tailor and boutique in Kawardha, Chhattisgarh. The promotional interface supports English, Hindi, and Chhattisgarhi and includes regional terminology such as Siyai, Chaniya Choli, Lugra, Saree Blouse, and Kurta Salwar.
+An offline-first React + Vite PWA for Silai, a fashion tailor and boutique in Kawardha, Chhattisgarh. The promotional interface supports English, Hindi, and Chhattisgarhi and includes regional terminology such as Silai, Chaniya Choli, Lugra, Saree Blouse, and Kurta Salwar.
 
 ## Run locally
 

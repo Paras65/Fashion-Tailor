@@ -11,10 +11,13 @@ export default defineConfig({
   plugins: [react(), tailwindcss(), VitePWA({
     registerType: 'autoUpdate',
     strategies: 'generateSW',
-    includeAssets: ['offline.html'],
+    includeAssets: ['offline.html', 'logo.jpg', 'showcase-banner.jpg'],
     manifest: {
-      name: 'फैशन टेलर कवर्धा', short_name: 'फैशन टेलर', description: 'Fashion tailoring in Kawardha, Chhattisgarh.', start_url: './', scope: './', display: 'standalone', background_color: '#f8faf8', theme_color: '#176b68', orientation: 'portrait-primary', lang: 'hi-IN', icons: [{ src: 'favicon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any maskable' }],
+      name: 'फ़ैशन टेलर्स कवर्धा - एकमात्र कोट ब्लेजर टेलर', short_name: 'फ़ैशन टेलर्स', description: 'कवर्धा का एकमात्र कोट ब्लेजर टेलर - Fashion Tailors Kawardha', start_url: './', scope: './', display: 'standalone', background_color: '#f8faf8', theme_color: '#176b68', orientation: 'portrait-primary', lang: 'hi-IN', icons: [
+        { src: 'favicon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any maskable' },
+        { src: 'logo.jpg', sizes: '772x800', type: 'image/jpeg', purpose: 'any' },
+      ],
     },
-    workbox: { navigateFallback: `${base}offline.html`, globPatterns: ['**/*.{js,css,html,ico,png,svg,webp}'] },
+    workbox: { navigateFallback: `${base}offline.html`, globPatterns: ['**/*.{js,css,html,ico,png,svg,webp,jpg,jpeg}'] },
   })],
 })
