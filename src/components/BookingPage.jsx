@@ -43,6 +43,7 @@ const copy = {
     callBtn2: 'कॉल करें (70494-04268)',
     newBooking: 'नई बुकिंग करें',
     outfits: {
+      weddingCombo: '👑 दूल्हा व शादी कॉम्बो पैकेज',
       coat: 'कोट ब्लेजर',
       sherwani: 'शेरवानी',
       jodhpuri: 'जोधपुरी',
@@ -104,6 +105,7 @@ const copy = {
     callBtn2: 'फोन करव (70494-04268)',
     newBooking: 'नवा बुकिंग करव',
     outfits: {
+      weddingCombo: '👑 दूल्हा अउ बिहाव कॉम्बो पैकेज',
       coat: 'कोट ब्लेजर',
       sherwani: 'शेरवानी',
       jodhpuri: 'जोधपुरी',
@@ -165,6 +167,7 @@ const copy = {
     callBtn2: 'Call (70494-04268)',
     newBooking: 'Book another outfit',
     outfits: {
+      weddingCombo: '👑 Groom & Wedding Special Combo',
       coat: 'Coat Blazer',
       sherwani: 'Sherwani',
       jodhpuri: 'Jodhpuri',

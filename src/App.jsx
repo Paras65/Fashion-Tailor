@@ -7,6 +7,7 @@ import GalleryPage from './components/GalleryPage'
 import AboutPage from './components/AboutPage'
 import BookingPage from './components/BookingPage'
 import SiteFooter from './components/SiteFooter'
+import StickyMobileBar from './components/StickyMobileBar'
 import { copy } from './i18n/translations'
 import './App.css'
 
@@ -36,5 +37,6 @@ export default function App() {
       {view === 'booking' && <BookingPage key={selectedOutfit || 'booking'} t={t} language={language} initialOutfit={selectedOutfit} />}
     </main>
     <SiteFooter language={language} onNavigate={goTo} onBook={(outfit) => goTo('booking', outfit)} />
+    <StickyMobileBar language={language} />
   </div>
 }
