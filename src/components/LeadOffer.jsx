@@ -11,7 +11,7 @@ export default function LeadOffer({ language, onBook }) {
 }
 
 function getTimeLeft() {
-  const difference = new Date('2026-08-31T23:59:59+05:30').getTime() - Date.now()
+  const difference = new Date('2026-11-30T23:59:59+05:30').getTime() - Date.now()
   if (difference <= 0) return { total: 0, days: 0, hours: 0, minutes: 0, seconds: 0 }
   return { total: difference, days: Math.floor(difference / 86400000), hours: Math.floor((difference / 3600000) % 24), minutes: Math.floor((difference / 60000) % 60), seconds: Math.floor((difference / 1000) % 60) }
 }
