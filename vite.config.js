@@ -15,6 +15,8 @@ export default defineConfig({
     manifest: {
       name: 'फ़ैशन टेलर्स कवर्धा - एकमात्र कोट ब्लेजर टेलर', short_name: 'फ़ैशन टेलर्स', description: 'कवर्धा का एकमात्र कोट ब्लेजर टेलर - Fashion Tailors Kawardha', start_url: './', scope: './', display: 'standalone', background_color: '#f8faf8', theme_color: '#176b68', orientation: 'portrait-primary', lang: 'hi-IN', icons: [
         { src: 'favicon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any maskable' },
+        { src: 'logo.jpg', sizes: '192x192', type: 'image/jpeg', purpose: 'any maskable' },
+        { src: 'logo.jpg', sizes: '512x512', type: 'image/jpeg', purpose: 'any maskable' },
         { src: 'logo.jpg', sizes: '772x800', type: 'image/jpeg', purpose: 'any' },
       ],
     },
