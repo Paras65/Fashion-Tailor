@@ -14,18 +14,21 @@ import {
 import LeadOffer from './LeadOffer'
 import SocialEngagement from './SocialEngagement'
 import heroBanner from '../assets/hero-banner.jpg'
+import sherwaniImg from '../assets/sherwani.png'
+import jodhpuriImg from '../assets/jodhpuri.png'
+import policeUniformImg from '../assets/police-uniform.png'
 import './HomePage.css'
 
 const popularServices = [
   { key: 'coat', image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=82' },
-  { key: 'sherwani', image: 'https://images.unsplash.com/photo-1610652492500-ded49ceeb378?auto=format&fit=crop&w=600&q=82' },
-  { key: 'jodhpuri', image: 'https://images.unsplash.com/photo-1598808503746-f34c53b9323e?auto=format&fit=crop&w=600&q=82' },
-  { key: 'policeUniform', image: 'https://images.unsplash.com/photo-1588731234159-8b9963143fca?auto=format&fit=crop&w=600&q=82' },
+  { key: 'sherwani', image: sherwaniImg },
+  { key: 'jodhpuri', image: jodhpuriImg },
+  { key: 'policeUniform', image: policeUniformImg },
 ]
 
 const copy = {
   hi: {
-    vipRibbon: '👑 कवर्धा का एकमात्र कोट-ब्लेजर स्पेशलिस्ट टेलर',
+    vipRibbon: '👑 कवर्धा का एकमात्र कोट-ब्लेजर स्पेशलिस्ट टेलर्स',
     eyebrow: 'कवर्धा का अपना फ़ैशन टेलर्स',
     title: 'आपका स्टाइल, हमारी शानदार सिलाई',
     intro: 'दैनिक पहनावे से लेकर खास मौकों तक, किफायती दामों पर बेहतरीन फिटिंग और शानदार फिनिशिंग।',
@@ -42,10 +45,10 @@ const copy = {
     promise: 'हर मौके के लिए सही फिट और भरोसेमंद क्वालिटी',
     areas: 'कवर्धा · राजनांदगांव · मुंगेली · बेमेतरा',
     fitText: 'डिलीवरी से पहले सही नाप और फिनिशिंग की पूरी जांच।',
-    priceText: 'वेडिंग, फॉर्मल, दैनिक और वर्दी के लिए साफ और उचित रेट।',
+    priceText: 'वेडिंग, फॉर्मल, दैनिक ,वर्दी ... के लिए साफ और उचित रेट।',
     galleryEyebrow: 'हमारा काम',
     galleryTitle: 'हर पोशाक में कवर्धा का हुनर',
-    galleryText: 'कोट, शेरवानी, जोधपुरी और वर्दी की सिलाई की झलकियां।',
+    galleryText: 'कोट, शेरवानी, जोधपुरी , वर्दी ... की सिलाई की झलकियां।',
     gallery: 'गैलरी देखें',
     contactTitle: 'कवर्धा में सिलाई बुक करें',
     contactText: 'अपनी पोशाक, नाप और तारीख बताएं। हम WhatsApp पर जल्दी जवाब देंगे।',

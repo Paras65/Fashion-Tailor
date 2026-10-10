@@ -4,7 +4,11 @@ import './SiteFooter.css'
 
 export default function SiteFooter({ language, onNavigate, onBook }) {
   const local = language === 'cg' ? { tagline: 'कंवर्धा के अपन फ़ैशन टेलर्स', text: 'रोज के पहिरन ले खास बेरा तक, कम दाम मं बढ़िया फिटिंग अउ शानदार फिनिशिंग।', links: 'जरूरी लिंक', services: 'सेवा', contact: 'संपर्क', address: 'कंवर्धा, छत्तीसगढ़', hours: 'सोमवार ले शनिवार', book: 'WhatsApp मं बुक करव', follow: 'हमर काम देखव', developer: 'वेबसाइट बनाइस', copyright: 'सब्बो अधिकार सुरक्षित।' } : language === 'hi' ? { tagline: 'कवर्धा का अपना फ़ैशन टेलर्स', text: 'दैनिक पहनावे से लेकर खास मौकों तक, किफायती दामों पर बेहतरीन फिटिंग और शानदार फिनिशिंग।', links: 'जरूरी लिंक', services: 'सेवाएं', contact: 'संपर्क', address: 'कवर्धा, छत्तीसगढ़', hours: 'सोमवार से शनिवार', book: 'WhatsApp पर बुक करें', follow: 'हमारा काम देखें', developer: 'वेबसाइट बनाई', copyright: 'सर्वाधिकार सुरक्षित।' } : { tagline: 'Kawardha Fashion Tailors', text: 'From everyday wear to special occasions, excellent fitting and polished finishing at affordable rates.', links: 'Quick links', services: 'Services', contact: 'Contact', address: 'Kawardha, Chhattisgarh', hours: 'Monday to Saturday', book: 'Book on WhatsApp', follow: 'Follow our work', developer: 'Website by', copyright: 'All rights reserved.' }
-  const profiles = [{ label: 'Instagram', url: import.meta.env.VITE_INSTAGRAM_URL }, { label: 'Facebook', url: import.meta.env.VITE_FACEBOOK_URL }, { label: 'YouTube', url: import.meta.env.VITE_YOUTUBE_URL }]
+  const profiles = [
+    { label: 'Instagram', url: import.meta.env.VITE_INSTAGRAM_URL || 'https://www.instagram.com/explore/tags/fashiontailorskawardha/' },
+    { label: 'Facebook', url: import.meta.env.VITE_FACEBOOK_URL || 'https://www.facebook.com/search/top?q=Fashion%20Tailors%20Kawardha' },
+    { label: 'YouTube', url: import.meta.env.VITE_YOUTUBE_URL || 'https://www.youtube.com/@youtubevideoabc' }
+  ]
   const developerUrl = import.meta.env.VITE_DEVELOPER_URL || 'https://www.init65.co.in'
   const locationUrl = 'https://share.google/A3HNgr8hZom4N76sD'
   const mapLabel = language === 'en' ? 'Open in Google Maps' : language === 'cg' ? 'Google Maps मं देखव' : 'Google Maps में देखें'

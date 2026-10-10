@@ -1,6 +1,11 @@
 import showcaseBanner from '../assets/showcase-banner.jpg'
 import showcaseTrousers from '../assets/showcase-trousers.jpg'
 import showcaseShirtsSuits from '../assets/showcase-shirts-suits.jpg'
+import sherwaniImg from '../assets/sherwani.png'
+import jodhpuriImg from '../assets/jodhpuri.png'
+import indoWesternImg from '../assets/indo-western.png'
+import kurtaPajamaImg from '../assets/kurta-pajama.png'
+import policeUniformImg from '../assets/police-uniform.png'
 
 const gallery = [
   {
@@ -39,43 +44,48 @@ const gallery = [
     }
   },
   {
-    image: 'https://images.unsplash.com/photo-1610652492500-ded49ceeb378?auto=format&fit=crop&w=800&q=82',
+    image: sherwaniImg,
+    badge: { hi: 'रॉयल वेडिंग', cg: 'रॉयल बिहाव', en: 'Royal Wedding' },
     label: {
-      hi: 'रॉयल शेरवानी लुक',
-      cg: 'शाही शेरवानी लुक',
-      en: 'Royal Sherwani Look'
+      hi: 'रॉयल दूल्हा शेरवानी — सिल्क व एम्ब्रॉयडरी फिनिश',
+      cg: 'शाही दूल्हा शेरवानी — सिल्क अउ कढ़ाई फिनिश',
+      en: 'Royal Groom Sherwani — Silk & Embroidery Finish'
     }
   },
   {
-    image: 'https://images.unsplash.com/photo-1598808503746-f34c53b9323e?auto=format&fit=crop&w=800&q=82',
+    image: jodhpuriImg,
+    badge: { hi: 'रॉयल सूट', cg: 'रॉयल सूट', en: 'Royal Suit' },
     label: {
-      hi: 'जोधपुरी सूट स्टाइल',
-      cg: 'जोधपुरी सूट स्टाइल',
-      en: 'Jodhpuri Suit Style'
+      hi: 'जोधपुरी सूट — एम्ब्रॉयडर्ड बंदगला व क्राउन बटन्स',
+      cg: 'जोधपुरी सूट — कढ़ाई बंदगला अउ क्राउन बटन',
+      en: 'Jodhpuri Suit — Handcrafted Bandhgala & Buttons'
     }
   },
   {
-    image: 'https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=800&q=82',
+    image: indoWesternImg,
+    badge: { hi: 'इंडो-वेस्टर्न', cg: 'इंडो-वेस्टर्न', en: 'Indo-Western' },
     label: {
-      hi: 'इंडो वेस्टर्न जैकेट',
-      cg: 'इंडो वेस्टर्न जैकेट',
-      en: 'Indo Western Jacket'
+      hi: 'इंडो वेस्टर्न जैकेट — मॉडर्न व ट्रेडिशनल स्टाइल',
+      cg: 'इंडो वेस्टर्न जैकेट — नवा अउ पारंपरिक स्टाइल',
+      en: 'Indo Western Jacket — Modern Fusion Wedding Style'
     }
   },
   {
-    image: 'https://images.unsplash.com/photo-1626497769138-5e8f8d7e8c1b?auto=format&fit=crop&w=800&q=82',
+    image: kurtaPajamaImg,
+    badge: { hi: 'त्योहार व रस्म', cg: 'तिहार अउ रस्म', en: 'Festive Wear' },
     label: {
-      hi: 'कुर्ता पाजामा',
-      cg: 'कुर्ता पाजामा',
-      en: 'Kurta Pajama'
+      hi: 'कुर्ता पाजामा — मैचिंग जैकेट व फाइन स्टिचिंग',
+      cg: 'कुर्ता पाजामा — मैचिंग जैकेट अउ बढ़िया सिलाई',
+      en: 'Kurta Pajama — Tailored Silk Kurta with Jacket'
     }
   },
   {
-    image: 'https://images.unsplash.com/photo-1588731234159-8b9963143fca?auto=format&fit=crop&w=800&q=82',
+    image: policeUniformImg,
+    badge: { hi: 'ड्यूटी यूनिफॉर्म', cg: 'ड्यूटी ड्रेस', en: 'Duty Uniform' },
     label: {
-      hi: 'पुलिस वर्दी एवं प्रोफेशनल यूनिफॉर्म',
-      cg: 'पुलिस वर्दी अउ काम के ड्रेस',
-      en: 'Police & Duty Uniforms'
+      hi: 'पुलिस वर्दी — आधिकारिक मानक एवं टिकाऊ सिलाई',
+      cg: 'पुलिस वर्दी — मजबूत सियाई अउ सही नाप',
+      en: 'Police Uniform — Official Specifications & Durable Fit'
     }
   }
 ]

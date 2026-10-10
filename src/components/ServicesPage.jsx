@@ -1,16 +1,23 @@
 import { ArrowRight, Check, Crown, Gift, Palette, Scissors, ShieldCheck, Shirt, Sparkles, UserRound } from 'lucide-react'
+import sherwaniImg from '../assets/sherwani.png'
+import jodhpuriImg from '../assets/jodhpuri.png'
+import indoWesternImg from '../assets/indo-western.png'
+import kurtaPajamaImg from '../assets/kurta-pajama.png'
+import policeUniformImg from '../assets/police-uniform.png'
+import showcaseTrousers from '../assets/showcase-trousers.jpg'
+import showcaseShirtsSuits from '../assets/showcase-shirts-suits.jpg'
 import './ServicesPage.css'
 
 const services = [
   { key: 'coat', icon: Crown, tone: 'rose', image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=700&q=82' },
-  { key: 'sherwani', icon: Sparkles, tone: 'gold', image: 'https://images.unsplash.com/photo-1610652492500-ded49ceeb378?auto=format&fit=crop&w=700&q=82' },
-  { key: 'jodhpuri', icon: UserRound, tone: 'teal', image: 'https://images.unsplash.com/photo-1598808503746-f34c53b9323e?auto=format&fit=crop&w=700&q=82' },
-  { key: 'indoWestern', icon: Shirt, tone: 'blue', image: 'https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=700&q=82' },
-  { key: 'kurtaPajama', icon: Shirt, tone: 'gold', image: 'https://images.unsplash.com/photo-1626497769138-5e8f8d7e8c1b?auto=format&fit=crop&w=700&q=82' },
-  { key: 'formalPants', icon: Scissors, tone: 'teal', image: 'https://images.unsplash.com/photo-1598808503746-f34c53b9323e?auto=format&fit=crop&w=700&q=82' },
-  { key: 'casualPantShirt', icon: Shirt, tone: 'blue', image: 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=700&q=82' },
+  { key: 'sherwani', icon: Sparkles, tone: 'gold', image: sherwaniImg },
+  { key: 'jodhpuri', icon: UserRound, tone: 'teal', image: jodhpuriImg },
+  { key: 'indoWestern', icon: Shirt, tone: 'blue', image: indoWesternImg },
+  { key: 'kurtaPajama', icon: Shirt, tone: 'gold', image: kurtaPajamaImg },
+  { key: 'formalPants', icon: Scissors, tone: 'teal', image: showcaseTrousers },
+  { key: 'casualPantShirt', icon: Shirt, tone: 'blue', image: showcaseShirtsSuits },
   { key: 'customOrder', icon: Palette, tone: 'rose', image: 'https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&w=700&q=82' },
-  { key: 'policeUniform', icon: ShieldCheck, tone: 'blue', image: 'https://images.unsplash.com/photo-1588731234159-8b9963143fca?auto=format&fit=crop&w=700&q=82' },
+  { key: 'policeUniform', icon: ShieldCheck, tone: 'blue', image: policeUniformImg },
 ]
 
 const content = {
