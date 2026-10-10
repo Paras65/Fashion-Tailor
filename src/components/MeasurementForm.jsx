@@ -2,7 +2,7 @@ import { ArrowLeft, Check, Ruler, Save } from 'lucide-react'
 import { useState } from 'react'
 
 const initialMeasurements = { chest: '', waist: '', hips: '', length: '', shoulder: '', sleeves: '' }
-export default function MeasurementForm({ t, language, onSave, onCancel }) {
+export default function MeasurementForm({ t, onSave, onCancel }) {
   const [form, setForm] = useState({ customerName: '', phone: '', outfit: '', deliveryDate: '', notes: '', measurements: initialMeasurements })
   const [saved, setSaved] = useState(false)
   const update = (field, value) => setForm((current) => ({ ...current, [field]: value }))

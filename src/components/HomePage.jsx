@@ -14,9 +14,9 @@ import {
 import LeadOffer from './LeadOffer'
 import SocialEngagement from './SocialEngagement'
 import heroBanner from '../assets/hero-banner.jpg'
-import sherwaniImg from '../assets/sherwani.png'
-import jodhpuriImg from '../assets/jodhpuri.png'
-import policeUniformImg from '../assets/police-uniform.png'
+import sherwaniImg from '../assets/sherwani.jpg'
+import jodhpuriImg from '../assets/jodhpuri.jpg'
+import policeUniformImg from '../assets/police-uniform.jpg'
 import './HomePage.css'
 
 const popularServices = [

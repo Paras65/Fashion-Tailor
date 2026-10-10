@@ -11,7 +11,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss(), VitePWA({
     registerType: 'autoUpdate',
     strategies: 'generateSW',
-    includeAssets: ['offline.html', 'logo.jpg', 'showcase-banner.jpg'],
+    includeAssets: ['offline.html', 'favicon.svg', 'logo.jpg', 'hero-banner.jpg'],
     manifest: {
       name: 'फ़ैशन टेलर्स कवर्धा - एकमात्र कोट ब्लेजर टेलर', short_name: 'फ़ैशन टेलर्स', description: 'कवर्धा का एकमात्र कोट ब्लेजर टेलर - Fashion Tailors Kawardha', start_url: './', scope: './', display: 'standalone', background_color: '#f8faf8', theme_color: '#176b68', orientation: 'portrait-primary', lang: 'hi-IN', icons: [
         { src: 'favicon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any maskable' },
@@ -22,4 +22,15 @@ export default defineConfig({
     },
     workbox: { navigateFallback: `${base}offline.html`, globPatterns: ['**/*.{js,css,html,ico,png,svg,webp,jpg,jpeg}'] },
   })],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor-react': ['react', 'react-dom'],
+          'vendor-icons': ['lucide-react'],
+          'vendor-storage': ['localforage'],
+        },
+      },
+    },
+  },
 })

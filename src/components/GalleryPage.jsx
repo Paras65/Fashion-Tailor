@@ -1,11 +1,11 @@
 import showcaseBanner from '../assets/showcase-banner.jpg'
 import showcaseTrousers from '../assets/showcase-trousers.jpg'
 import showcaseShirtsSuits from '../assets/showcase-shirts-suits.jpg'
-import sherwaniImg from '../assets/sherwani.png'
-import jodhpuriImg from '../assets/jodhpuri.png'
-import indoWesternImg from '../assets/indo-western.png'
-import kurtaPajamaImg from '../assets/kurta-pajama.png'
-import policeUniformImg from '../assets/police-uniform.png'
+import sherwaniImg from '../assets/sherwani.jpg'
+import jodhpuriImg from '../assets/jodhpuri.jpg'
+import indoWesternImg from '../assets/indo-western.jpg'
+import kurtaPajamaImg from '../assets/kurta-pajama.jpg'
+import policeUniformImg from '../assets/police-uniform.jpg'
 
 const gallery = [
   {
